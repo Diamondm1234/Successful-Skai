@@ -75,16 +75,25 @@ function food(){
     document.getElementById("healthScore").innerHTML = getHealthy;
 }
 
-function response(){
+/*function complain(){
 
-var randomResponse =['Feed Me!!','Teach me something','Excrcise me','Play with me!'];
+var randomResponse =['Feed Me!!','Teach Me Something!',"Let's Excrcise!",'Play with me!'];
 randomResponse[Math.floor(Math.random()*randomResponse.length)];
-//document.getElementById("speech").innerHTML= "GAME OVER";
+document.getElementById("speech").innerHTML= "Thank you for taking car of me!";
 
-if randonResponse =['Feed Me!!']
+if randonResponse =['Feed Me!!'] {
+    onlick = "food()";
+    document.getElementById("speech").innerHTML= "YAYY!";
+    
+} Else{
+    document.getElementById("speech").innerHTML= "NOO! Feed Me!";
+} if randomResponse =['Teach Me Something!']{
+    onclick = "learn()".
+    document.getElementById("speech").innerHTML= "YAYY!";
+} Else{
+    document.getElementById("speech").innerHTML= "NOO! Teach me something!";
 
-}
+} */
 function start(){
     hunger();
-    response();
 }

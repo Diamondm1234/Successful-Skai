@@ -77,15 +77,16 @@ function food(){
 
 /*function complain(){
 
-var randomResponse =['Feed Me!!','Teach Me Something!',"Let's Excrcise!",'Play with me!'];
-randomResponse[Math.floor(Math.random()*randomResponse.length)];
-document.getElementById("speech").innerHTML= "Thank you for taking car of me!";
+var response = ['Feed Me!!','Teach Me Something!',"Let's Excrcise!",'Play with me!'];
+    response = [Math.floor(Math.random()*randomResponse.length)];
+    document.getElementById("speech").innerHTML= "Thank you for taking car of me!";{
 
-if randonResponse =['Feed Me!!'] {
-    onlick = "food()";
+ }if response ==['0'] {
+    object.onlick == "food()";
     document.getElementById("speech").innerHTML= "YAYY!";
-    
-} Else{
+    } 
+}
+Else{
     document.getElementById("speech").innerHTML= "NOO! Feed Me!";
 } if randomResponse =['Teach Me Something!']{
     onclick = "learn()".

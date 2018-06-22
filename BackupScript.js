@@ -97,42 +97,9 @@ Else{
 } */
 function start(){
     hunger();
-    learn();
-    food();
-    skaisays();
 }
-
-var randomResponse = ['Time for me to workout :)', 'I\'m bored :|', 'Feed me Please ;)','OOHH the Cow looks smart...Click it X)','Toys is my favorite subject..lets play with a teddy bear','I know that penguins have knees! Let\'s learn some MORE!!',   ]
 
 function skaisays(){
     
-    var intervalSpeech = setInterval(skaispeaks, 4000);
     
-    function skaispeaks(){
-        
-        var counter; 
-        
-        var skaiRandomResponse = randomResponse[Math.floor(Math.random()*randomResponse.length)];
-        
-        document.getElementById("speech").innerHTML = skaiRandomResponse;
-        
-        counter++;
-        
-        if (counter>= randomResponse.length){
-            
-            counter = 0;
-            
-            clearInterval(intervalSpeech);
-        }
-        if(getHungry == -1 || getHealthy == -1 || getSmart == -1){
-            counter = 0
-            
-            clearInterval(intervalSpeech);
-            
-            document.getElementById("speech").innerHTML = "GAME OVER";
-            
-            
-        }
-        
-    }
 }
